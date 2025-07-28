@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>T&R Limpeza com Drones</title>
+  <link rel="stylesheet" href="https://html5up.net/uploads/demos/photon/assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      background: linear-gradient(135deg, #232946 0%, #1a1a2e 100%);
+      color: #f4f4f4;
+    }
+    .gear-bg {
+      position: absolute;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      z-index: 0;
+      pointer-events: none;
+      opacity: 0.08;
+      background: url('https://cdn-icons-png.flaticon.com/512/3523/3523887.png') repeat;
+      background-size: 200px;
+    }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 2.2em;
+      color: #111;
+      margin-bottom: 24px;
+    }
+    .card-row {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 32px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+      padding: 24px 20px;
+      min-width: 220px;
+      max-width: 300px;
+      text-align: center;
+      flex: 1 1 220px;
+      margin: 0 8px;
+      color: #222;
+    }
+    .card h3, .card b {
+      color: #1a237e;
+    }
+    .card p {
+      color: #444;
+    }
+    .card i {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      color: #43a047;
+    }
+    .divider {
+      width: 80px;
+      height: 4px;
+      background: #43a047;
+      border-radius: 2px;
+      margin: 32px auto 24px auto;
+    }
+    .service-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+      margin-bottom: 32px;
+    }
+    .service-item {
+      background: #fff;
+      border-radius: 14px;
+      padding: 20px 18px;
+      min-width: 200px;
+      max-width: 260px;
+      text-align: center;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+      flex: 1 1 200px;
+      color: #222;
+    }
+    .service-item h4 {
+      color: #1a237e;
+      margin-bottom: 8px;
+    }
+    .service-item p {
+      color: #444;
+    }
+    .service-item i {
+      font-size: 2em;
+      color: #1e88e5;
+      margin-bottom: 8px;
+    }
+    .gallery-img {
+      width: 100%;
+      max-width: 420px;
+      border-radius: 12px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      background: #25d366;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 8px 8px 0 0;
+      transition: background 0.2s;
+    }
+    .whatsapp-btn:hover {
+      background: #128c7e;
+    }
+    @media (max-width: 900px) {
+      .card-row, .service-list {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="gear-bg"></div>
+  <!-- Header -->
+  <section id="header">
+    <div class="inner">
+      <span class="icon solid major fa-cogs"></span>
+      <h1>T&R Limpeza com Drones</h1>
+      <p>Soluções inovadoras em limpeza de fachadas, galpões e painéis solares</p>
+      <ul class="actions special">
+        <li><a href="#contato" class="button primary">Solicite um orçamento gratuito!</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Sobre -->
+  <section id="sobre" class="main">
+    <div class="content">
+      <div class="section-title"><i class="fas fa-users-cog"></i>Sobre Nós</div>
+      <p>Somos Teverson e Rafael, fundadores da T&R Limpeza com Drones. Unimos tecnologia, experiência e compromisso para transformar o mercado de limpeza predial e industrial. Nossa missão é oferecer serviços de alta qualidade, com segurança, agilidade e sustentabilidade.</p>
+      <div class="card-row">
+        <div class="card">
+          <i class="fas fa-bullseye"></i>
+          <h3>Missão</h3>
+          <p>Levar tecnologia, economia e sustentabilidade para o setor de limpeza.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-eye"></i>
+          <h3>Visão</h3>
+          <p>Ser referência em limpeza aérea no Sul e Sudeste do Brasil.</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-hand-holding-heart"></i>
+          <h3>Valores</h3>
+          <p>Segurança, inovação, transparência e respeito ao cliente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Serviços -->
+  <section id="servicos" class="main">
+    <div class="content">
+      <div class="section-title"><i class="fas fa-broom"></i>Nossos Serviços</div>
+      <div class="service-list">
+        <div class="service-item">
+          <i class="fas fa-city"></i>
+          <h4>Limpeza de Fachadas</h4>
+          <p>Remoção de sujeira, poluição e manchas em fachadas comerciais e industriais, com tecnologia de ponta e sem andaimes.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-warehouse"></i>
+          <h4>Limpeza de Galpões e Telhados</h4>
+          <p>Limpeza eficiente de grandes áreas, galpões logísticos e telhados, garantindo segurança e agilidade.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-solar-panel"></i>
+          <h4>Limpeza de Painéis Solares</h4>
+          <p>Maximize a eficiência dos seus painéis solares com limpeza especializada e sustentável.</p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-oil-can"></i>
+          <h4>Limpeza de Silos e Tanques</h4>
+          <p>Higienização de silos e tanques industriais, com acesso seguro e sem interrupção das operações.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Benefícios -->
+  <section id="beneficios" class="main">
+    <div class="content">
+      <div class="section-title"><i class="fas fa-star"></i>Benefícios do uso de drones</div>
+      <div class="card-row">
+        <div class="card"><i class="fas fa-bolt"></i><b>Limpeza rápida e eficiente</b></div>
+        <div class="card"><i class="fas fa-user-shield"></i><b>Segurança para todos</b></div>
+        <div class="card"><i class="fas fa-mountain"></i><b>Acesso a áreas de difícil acesso</b></div>
+        <div class="card"><i class="fas fa-dollar-sign"></i><b>Redução de custos</b></div>
+        <div class="card"><i class="fas fa-leaf"></i><b>Sustentabilidade ambiental</b></div>
+        <div class="card"><i class="fas fa-award"></i><b>Endosso de marca</b></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Galeria -->
+  <section id="galeria" class="main">
+    <div class="content">
+      <div class="section-title"><i class="fas fa-images"></i>Galeria Antes e Depois</div>
+      <div style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: center; align-items: flex-start;">
+        <div>
+          <h3>Antes</h3>
+          <img src="https://cdn.abacus.ai/images/b3c0edf0-a234-438a-a334-05d7bcb4c5da.png" alt="Fachada suja" class="gallery-img" />
+        </div>
+        <div>
+          <h3>Depois</h3>
+          <img src="https://cdn.abacus.ai/images/4adf82dc-aeb8-4f55-b4e9-bbd83d77601e.png" alt="Fachada limpa" class="gallery-img" />
+        </div>
+      </div>
+      <div style="margin-top:32px; text-align:center;">
+        <img src="https://cdn.abacus.ai/images/0e2a1229-633a-471a-b63c-1e9a510f66ee.png" alt="Drone limpando fachada" class="gallery-img" />
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Contato -->
+  <section id="contato" class="main">
+    <div class="content">
+      <div class="section-title"><i class="fas fa-phone-volume"></i>Contato</div>
+      <p>Entre em contato pelo WhatsApp ou e-mail para solicitar um orçamento ou tirar dúvidas:</p>
+      <a class="whatsapp-btn" href="https://wa.me/5513996446467" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp: (13) 99644-6467</a>
+      <a class="whatsapp-btn" href="https://wa.me/5513997999281" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp: (13) 99799-9281</a>
+      <p style="margin-top:16px;">E-mail: <a href="/cdn-cgi/l/email-protection#690a06071d081d06291d1b050004190c13080d1b06070c1a470a0604"><span class="__cf_email__" data-cfemail="3d5e5253495c49527d494f5154504d58475c594f5253584e135e5250">[email&#160;protected]</span></a></p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="inner">
+      <p><b>T&R Limpeza com Drones</b> — Tecnologia, eficiência e sustentabilidade para o seu negócio.</p>
+    </div>
+  </section>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
